@@ -1,6 +1,6 @@
 import { NavLink, Link, useNavigate } from 'react-router-dom';
 import { Navbar as Nav, NavbarBrand, NavbarContent, NavbarItem, Link as NextUiLink, Button } from '@nextui-org/react';
-import { useSessionStore } from '../hooks/useSessionStore';
+import { useSessionStore } from '../hooks/use-session-store';
 
 const navLinks = [
   { label: 'Home', href: '/' },

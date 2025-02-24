@@ -1,7 +1,7 @@
-import { useSessionStore } from './hooks/useSessionStore';
-import MainRouter from './routers/MainRouter';
-import AuthRouter from './routers/AuthRouter';
-import Navbar from './components/Navbar';
+import { useSessionStore } from './hooks/use-session-store';
+import MainRouter from './routers/main-router';
+import AuthRouter from './routers/auth-router';
+import Navbar from './components/navbar';
 
 export default function App() {
   const { accessToken, refreshToken, expiresIn, logIn } = useSessionStore();

@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Login from '../pages/Login';
-import Register from '../pages/Register';
+import Login from '../pages/auth/login';
+import Register from '../pages/auth/register';
 
 export default function AuthRouter() {
   return (
